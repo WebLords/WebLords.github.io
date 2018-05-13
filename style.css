@@ -11,3 +11,65 @@ li {
 #header  {
 	background-color:#5082b9;
 }
+ .news{
+    padding-left: 15%;
+    float: left;
+    width: 10%;
+}
+.right{
+	padding-right:30%;
+    width: 20%; 
+    float:right;
+	background-color:#ffffff;
+	border-radius:20px;
+}
+.currenttext {
+	font-size:13px;
+}
+#page_header {
+    position: relative;
+    height: 42px;
+    margin: 0;
+    font-size: 20px;
+	background-color:#5082b9;
+}
+#page_header > img {
+	float:left;
+	margin-left:150px;
+	position:relative;
+}
+#page_header > input {
+	float:left;
+	margin-left:126px;
+	margin-top:7px;
+	outline: none;
+	border-radius: 20px;
+	width:110px;
+	height: 28px;
+	background: #224b7a;
+	border-width:0px;
+	background-image:url(../IMG/поиск.png);
+	background-repeat: no-repeat;   
+	background-size: 20px 20px;
+	background-position-x: 5px;
+	background-position-y: 4px;
+	padding-left:20px;
+}
+#page_header > input:focus {
+	background-color:#ffffff;
+}
+input{
+background-color:#ffffff;
+border-radius:10px;
+outline:none;
+}
+.pagecounter	{
+	margin-right:120px;
+	float:right;
+	padding:10px;
+}
+a {
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+}
