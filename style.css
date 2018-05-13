@@ -17,8 +17,8 @@ li {
     width: 10%;
 }
 .right{
-	padding-right:30%;
-    width: 20%; 
+	padding-right:200px;
+    width: 550px; 
     float:right;
 	background-color:#ffffff;
 	border-radius:20px;
@@ -64,12 +64,34 @@ border-radius:10px;
 outline:none;
 }
 .pagecounter	{
-	margin-right:120px;
-	float:right;
+	display:inline-block;
 	padding:10px;
 }
 a {
     color: #2a5885;
     text-decoration: none;
     cursor: pointer;
+}
+.countsmodule {
+    text-align: center;
+}
+div {
+    display: block;
+}
+.pageblock {
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    margin: 15px 0 0;
+}
+ .headertop {
+    padding: 2px 20px 0;
+    font-size: 15px;
+	height: 32px;
+    line-height: 40px;
+	color:#000;
+}
+body  {
+	    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 }
