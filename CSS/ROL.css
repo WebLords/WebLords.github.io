@@ -1,0 +1,109 @@
+.jopa {
+	margin:auto;
+	display: block;
+	width: 527px;
+}
+
+.stells {
+	margin:auto;
+}
+
+.butt {
+	 background: #5e81a8;
+}
+
+#page_header {
+    position: relative;
+    height: 42px;
+    margin: 0;
+    font-size: 12.5px;
+	background-color:#4a76a8;
+}
+body {
+	margin:0;
+	background-color:#edeef0;
+	font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+#page_header > img {
+	float:left;
+	margin-left:150px;
+}
+#page_header > input {
+	float:left;
+	margin-left:126px;
+	margin-top:7px;
+	outline: none;
+	border-radius: 20px;
+	width:230px;
+	height: 28px;
+	background: #224b7a;
+	border-width:0px;
+	background-image:url(../IMG/поиск.png);
+	background-repeat: no-repeat; /*Убираем повтор изображения*/   
+	background-size: 20px 20px;
+	background-position-x: 5px;
+	background-position-y: 4px;
+	padding-left:30px;
+}
+#page_header > input:focus {
+	background-color:#ffffff;
+}
+::placeholder {
+	color:#81adbb;
+	font-size: 13px;
+	font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+.login {
+	margin-top:30px;
+	width: 270px;
+	background-color:#edeef0;
+	padding:25px;	
+	box-shadow: 0 1px 0 0 #edeef0, 0 0 0 1px #edeef0;
+}
+.menuLoginp {
+	display: block;
+	margin:0px 0px 20px;
+	padding:6px 12px 8px;
+	width:100%;
+	border-radius:5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#d3d9de;
+	height: 35px;
+}
+.menuLogbot {
+	margin:0px;
+	font-size: 14px;
+    line-height: 20px;
+    border-radius: 3px;
+	padding: 7px 16px 8px;
+	width: 100px;
+	border: 0;
+	background-color: #5181b8;
+    color: #fff;
+    margin-right: 15px;
+}
+.noPassword {
+	color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+	font-size: 13px;
+}
+form {
+	margin:0px;
+}
+.menuLogbot:hover {
+	background-color:#5181b8e8;
+}
+.noPassword:hover {
+	text-decoration:underline;
+}
+.msg_text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 150%;
+	padding: 20px;
+	border-color: #f2ab99;
+	border-style:solid;
+	background-color:#ffefe9;
+}

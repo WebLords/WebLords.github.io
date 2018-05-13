@@ -1,0 +1,40 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/login.css">
+	</head>
+	<body>
+		<div id="page_header" class="p_head1 p_head_l777">
+			<img src="IMG/top.png" width="40px">
+			<input type="search" placeholder="Поиск">
+		</div>
+		<div class="banan">
+		<img id="popka" src="IMG/PIC.png">
+		<div class="login">
+			<form action="vk.html">
+				<input class="menuLoginp" type="text" name="email" id="index_email" value="" placeholder="Телефон или email">
+				<input class="menuLoginp" type="password" name="pass" id="index_pass" value="" placeholder="Пароль" onkeyup="toggle('index_expire', !!this.value);toggle('index_forgot', !this.value)">
+				<button class="menuLogbot" id="index_login_button">Войти</button>
+				<a id="index_forgot" class="noPassword" href="VOSST.html" target="_top">Забыли пароль?</a>
+            </form>
+            <div class="login">
+			<form action="nepr.html">
+				<input class="menuLoginp" type="text" name="email" id="index_email" value="" placeholder="ИМЯ">
+				<input class="menuLoginp" type="password" name="pass" id="index_pass" value="" placeholder="ФАМИЛИЯ" onkeyup="toggle('index_expire', !!this.value);toggle('index_forgot', !this.value)">
+                <input class="menuLoginp" type="password" name="pass" id="index_pass" value="" placeholder="Д.Р." onkeyup="toggle('index_expire', !!this.value);toggle('index_forgot', !this.value)">
+				<button class="menuLogbot2" id="index_login_button2">РЕГИСТР.</button>
+                <div class="fb-login-button index_fb_continue_with_btn fb_iframe_widget" onclick="return Index.fbJoin();" data-use-continue-as="true" data-width="264" data-max-rows="1" data-size="medium" data-button-type="continue_with" login_text="" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=128749580520227&amp;button_type=continue_with&amp;container_width=270&amp;locale=ru_RU&amp;max_rows=1&amp;sdk=joey&amp;size=medium&amp;use_continue_as=true&amp;width=264"><span style="vertical-align: bottom; width: 264px; height: 28px;"><iframe name="f2412e3df5017c8" width="264px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:login_button Facebook Social Plugin" src="https://www.facebook.com/v2.7/plugins/login_button.php?app_id=128749580520227&amp;button_type=continue_with&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F2VRzCA39w_9.js%3Fversion%3D42%23cb%3Df37e76fd6cd9c%26domain%3Dvk.com%26origin%3Dhttps%253A%252F%252Fvk.com%252Ff3faa489575a8f8%26relation%3Dparent.parent&amp;container_width=270&amp;locale=ru_RU&amp;max_rows=1&amp;sdk=joey&amp;size=medium&amp;use_continue_as=true&amp;width=264" style="border: none; visibility: visible; width: 264px; height: 28px;" class=""></iframe></span></div>
+            </form>
+	
+        </div>
+        </div>
+        <div class="login2">
+			<form action="">
+				<button class="menuLogbot" id="index_login_button">VK Для IPhone</button>
+                <button class="menuLogbot" id="index_login_button">VK Для Android</button>
+                <button class="menuLogbot" id="index_login_button">VK Для WPhone</button>
+            </form>
+		</div>
+		
+	</body>
+</html>

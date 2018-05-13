@@ -1,0 +1,13 @@
+img	{
+	width : 80px;
+	height :80px;
+	border : 0px;
+}
+li {
+	list-style-type: none;
+	padding-top: 5px;
+	color:#5082b9;
+}	
+#header  {
+	background-color:#5082b9;
+}
