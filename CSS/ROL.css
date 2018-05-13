@@ -107,3 +107,20 @@ form {
 	border-style:solid;
 	background-color:#ffefe9;
 }
+
+.banan {
+	width: 1020px;
+	margin:auto;
+}
+
+.login2 {
+	margin-top:30px;
+	width: 400px;
+	background-color:#edeef0;
+	padding:25px;	
+	box-shadow: 0 1px 0 0 #edeef0, 0 0 0 1px #edeef0;
+}
+
+#popka {
+	float:left;
+}

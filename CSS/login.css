@@ -115,3 +115,14 @@ form {
     color: #fff;
     margin-right: 15px;
 }
+
+.login2 {
+	margin-top:30px;
+	width: 400px;
+	background-color:#edeef0;
+	padding:25px;	
+	box-shadow: 0 1px 0 0 #edeef0, 0 0 0 1px #edeef0;
+}
+
+element.style {
+}
