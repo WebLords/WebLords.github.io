@@ -83,14 +83,14 @@ form {
 	background-color:#5181b8e8;
 }
 .noPassword:hover {
-	text-decoration:underline;
+	text-decoration:undserline;
 }
 
-#popka {
+#kartinka {
 	float:left;
 }
 
-.banan {
+.midle {
 	width: 1020px;
 	margin:auto;
 }
@@ -116,13 +116,9 @@ form {
     margin-right: 15px;
 }
 
-.login2 {
-	margin-top:30px;
-	width: 400px;
-	background-color:#edeef0;
-	padding:25px;	
-	box-shadow: 0 1px 0 0 #edeef0, 0 0 0 1px #edeef0;
-}
-
-element.style {
+.reg {
+	border: none;
+	visibility: visible;
+	width: 264px; 
+	height: 28px;
 }
