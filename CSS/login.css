@@ -41,15 +41,16 @@ body {
 }
 .login {
 	float:right;
-	margin-top:30px;
 	width: 270px;
 	background-color:#ffffff;
 	padding:25px;	
 	box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+	margin-top: 34px;
+    margin-right: 20px;
 }
 .menuLoginp {
 	display: block;
-	margin:0px 0px 20px;
+	margin:0px 0px 15px;
 	padding:6px 12px 8px;
 	width:100%;
 	border-radius:5px;
@@ -83,16 +84,33 @@ form {
 	background-color:#5181b8e8;
 }
 .noPassword:hover {
-	text-decoration:undserline;
+	text-decoration:underline;
 }
 
-#kartinka {
-	float:left;
+#kartinka_ios {
+	margin-top:158px;
+	margin-left:-35px;
+	z-index:3;
+	position: relative;
+}
+#kartinka_wp {
+	margin-top:158px;
+	margin-left:-35px;
+	z-index:2;
+	position: relative;
+}
+#kartinka_android {
+	margin-top:158px;
+	z-index:1;
+	position: relative;
 }
 
 .midle {
 	width: 1020px;
 	margin:auto;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom:105px;
 }
 
 .login2 {
