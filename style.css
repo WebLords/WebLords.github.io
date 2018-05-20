@@ -1,8 +1,4 @@
-img	{
-	width : 80px;
-	height :80px;
-	border : 0px;
-}
+
 li {
 	list-style-type: none;
 	padding-top: 5px;
@@ -17,8 +13,8 @@ li {
     width: 10%;
 }
 .right{
-	padding-right:200px;
-    width: 550px; 
+	padding-right:100px;
+    width: 600px; 
     float:right;
 	background-color:#ffffff;
 	border-radius:20px;
@@ -83,7 +79,7 @@ div {
     background: #fff;
     border-radius: 2px;
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
-    margin: 15px 0 0;
+    margin: 10px 0 0;
 }
  .headertop {
     padding: 2px 20px 0;
@@ -94,4 +90,13 @@ div {
 }
 body  {
 	    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+.pagesquarephoto{
+	margin-left:6px;
+	background-size: cover;
+	display: inline-block;
+   
+}
+img  {
+	height:120px;
 }
