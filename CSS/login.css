@@ -39,14 +39,35 @@ body {
 	font-size: 13px;
 	font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 }
-.login {
+.midle {
+	width: 960px;
+	margin:0 auto;
+	padding-top:30px;
+	padding-bottom:105px;
+}
+.wite_log {
 	float:right;
-	width: 270px;
+	width: 320px;
+	margin-top: 32px;
+	margin-right: 29px;
+}
+.login {
 	background-color:#ffffff;
 	padding:25px;	
 	box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
-	margin-top: 34px;
-    margin-right: 20px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.reg {
+	border: none;
+	width: 100%;
+	height: 28px;
+	background-color: #ffffff;
+	padding: 25px;
+	box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+	margin-top:30px;
+	box-sizing: border-box;
 }
 .menuLoginp {
 	display: block;
@@ -60,7 +81,6 @@ body {
 	height: 35px;
 }
 .menuLogbot {
-	margin:0px;
 	font-size: 14px;
     line-height: 20px;
     border-radius: 3px;
@@ -69,7 +89,6 @@ body {
 	border: 0;
 	background-color: #5181b8;
     color: #fff;
-    margin-right: 15px;
 }
 .noPassword {
 	color: #2a5885;
@@ -86,31 +105,23 @@ form {
 .noPassword:hover {
 	text-decoration:underline;
 }
-
-#kartinka_ios {
+.images{
+	float:left;
 	margin-top:158px;
+}
+#kartinka_ios {
 	margin-left:-35px;
 	z-index:3;
 	position: relative;
 }
 #kartinka_wp {
-	margin-top:158px;
 	margin-left:-35px;
 	z-index:2;
 	position: relative;
 }
 #kartinka_android {
-	margin-top:158px;
 	z-index:1;
 	position: relative;
-}
-
-.midle {
-	width: 1020px;
-	margin:auto;
-	text-align: center;
-	padding-top:30px;
-	padding-bottom:105px;
 }
 
 .login2 {
@@ -134,9 +145,31 @@ form {
     margin-right: 15px;
 }
 
-.reg {
-	border: none;
-	visibility: visible;
-	width: 264px; 
-	height: 28px;
+.menuLoginp::placeholder {
+	color:#828282;
+	font-size:13px;
+	letter-spacing: 0.3px;
+}
+.header_reg {
+	font-weight: 400;
+	margin: -4px 0 0;
+    font-size: 20px;
+    text-align: center;
+}
+.header2_reg {
+	padding: 5px 0 21px;
+    text-align: center;
+    color: #656565;
+    font-size: 12.5px;
+}
+input.big_text {
+	height: 35px;
+    border-radius: 5px;
+	padding: 6px 12px 8px;
+	width: 100%;
+	display: block;
+	margin: 0px 0px 15px;
+	border-color: #d3d9de;
+	border-width: 1px;
+	border-style: solid;
 }
